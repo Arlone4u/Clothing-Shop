@@ -98,7 +98,7 @@ import {
         <InfoContainer>
           <TextContainer>
             <Title>{name}</Title>
-            <SubTitle>{price}.00$</SubTitle>
+            <SubTitle>₱ {price}.00</SubTitle>
           </TextContainer>
           <QtyContainer>
             <Decrement onClick={handleSub}>-</Decrement>

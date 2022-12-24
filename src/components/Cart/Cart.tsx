@@ -10,7 +10,7 @@ export const Cart = () => {
   return (
     <>
     <TitleWrapper>
-      <Title>{products.length ? `Item Checkout Total ${total}.00$` : "No items selected, Cart is Empty."}</Title>
+      <Title>{products.length ? `Item Checkout Total ₱ ${total}.00` : "No items selected, Cart is Empty."}</Title>
       {products.length > 0 && (
         <Link to="/checkout">
           <CheckoutButton>Checkout</CheckoutButton>

@@ -27,9 +27,9 @@ import {
           <ImageWrapper background={imageUrl}></ImageWrapper>
           <TextContainer>
             <Title>{name}</Title>
-            <SubTitle>Price per item: {price}.00$</SubTitle>
+            <SubTitle>Price per item: ₱ {price}.00</SubTitle>
             <SubTitle>Quantity: {quantity}</SubTitle>
-            <SubTitle>Subtotal: {price * quantity}.00$</SubTitle>
+            <SubTitle>Subtotal: ₱ {price * quantity}.00</SubTitle>
           </TextContainer>
         </InfoWrapper>
       </Wrapper>

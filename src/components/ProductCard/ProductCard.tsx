@@ -70,7 +70,7 @@ export const ProductCard = ({ name, imageUrl, price, quantity }: Product) => {
       </AddButton>
       <TextContainer>
         <Title>{name}</Title>
-        <SubTitle>{price}.00$</SubTitle>
+        <SubTitle>₱ {price}.00</SubTitle>
       </TextContainer>
     </Wrapper>
   );
