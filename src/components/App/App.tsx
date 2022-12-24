@@ -1,11 +1,12 @@
 import { Link, Route, Routes } from "react-router-dom";
 import { LinksWrapper, TitleWrapper, Wrapper } from "./App.styled";
-
 import { Wishlist } from "../Wishlist";
 import { Cart } from "../Cart";
 import { Products } from "../Products";
 import { useReducer } from "react";
 import { Product } from "../../models";
+import { ClothingShopContext } from "../Context";
+import { Checkout } from "../Checkout";
 import {
   shopReducer,
   initialState,
@@ -17,8 +18,6 @@ import {
   save,
   totalItems,
 } from "../Reducer";
-import { ClothingShopContext } from "../Context";
-import { Checkout } from "../Checkout";
 
 export const App = () => {
   const [state, dispatch] = useReducer(shopReducer, initialState);
